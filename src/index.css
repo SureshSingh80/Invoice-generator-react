@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+     font-family: 'Times New Roman', Times, serif;
+}
+
+/* hide initially bottom section container */
+.bottom-section-container
+{
+     display: none;
+}
+.print-container{
+     display: none;
+}
+@media print{
+
+     /* display none while printing */
+     .display-form{
+          display: none;
+     }
+     .add-btn{
+          display: none;
+     }
+     .print-btn{
+          display: none;
+     }
+
+     /* display inline for display in printing while printing */
+     .bottom-section-container
+     {
+          display:inline;
+     }
+     .print-container{
+          display: inline;
+     }
+}
