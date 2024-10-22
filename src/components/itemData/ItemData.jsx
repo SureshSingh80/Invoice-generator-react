@@ -20,7 +20,7 @@ const ItemData = (props) => {
       <p className='text-center'>-----------------Item Details----------------------</p>
     <form action="">
       {/* First Row */}
-     <div className='flex'>
+     <div className='flex input-container'>
 
        <div className='w-1/2 m-1'>
           <label htmlFor="name">Enter Item Name:</label><br />
@@ -38,7 +38,7 @@ const ItemData = (props) => {
     </div> 
 
     {/* Second Row */}
-    <div className='flex'>
+    <div className='flex input-container'>
 
        <div className='w-1/2 m-1'>
           <label htmlFor="quantity">Enter item quantity:</label><br />
@@ -56,7 +56,7 @@ const ItemData = (props) => {
     </div> 
 
     {/* Third Row */}
-    <div className='flex'>
+    <div className='flex input-container'>
 
        <div className='w-1/2 m-1'>
           <label htmlFor="discount">Enter item discount:</label><br />

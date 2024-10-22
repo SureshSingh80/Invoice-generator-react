@@ -97,13 +97,15 @@ function App() {
           ))
         }
 
-     <div className="w-full mb-4">
-       <button  onClick={handlePush} style={{marginLeft:"50%"}} className=" mt-2 border-2 border-black p-2 rounded add-btn " >Add Item</button>
-       <button  onClick={handlePrint} className=" w-28 text-lg  border-2 border-black ml-[25%] p-2 rounded print-btn">
+     <div className=" w-full flex justify-end mb-4">
+       
+      <div className="mr-[15%]">
+       <button  onClick={handlePush} style={{marginLeft:"0%"}} className="  mr-4 border-2 border-black p-2 rounded add-btn " >Add Item</button>
+       <button  onClick={handlePrint} className="  text-lg  border-2 border-black   p-2 mt-2 rounded print-btn">
          Print
          <span class="material-symbols-outlined relative top-1 left-1 text-lg ">print</span>
       </button>
-
+      </div>
      </div>
        
        <PrintInterface compData={compData} shipData={shipData} itemData={itemData} 

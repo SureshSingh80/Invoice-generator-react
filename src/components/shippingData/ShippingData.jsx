@@ -20,7 +20,7 @@ const ShippingData = (props) => {
     <p className='text-center'>-------------------Shipping Details---------------------</p>
     <form action="">
       {/* First Row */}
-     <div className='flex'>
+     <div className='flex input-container'>
 
        <div className='w-1/2 m-1'>
           <label htmlFor="billTo">Enter the BillTo/Ship To:</label><br />
@@ -38,7 +38,7 @@ const ShippingData = (props) => {
     </div> 
 
     {/* Second Row */}
-    <div className='flex'>
+    <div className='flex input-container'>
 
        <div className='w-1/2 m-1'>
           <label htmlFor="date">Enter the date:</label><br />

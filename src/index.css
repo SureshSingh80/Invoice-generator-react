@@ -15,7 +15,6 @@
      display: none;
 }
 @media print{
-
      /* display none while printing */
      .display-form{
           display: none;
@@ -34,5 +33,20 @@
      }
      .print-container{
           display: inline;
+     }
+}
+
+@media (max-width:730px){
+       .display-form{
+          width:100%;
+       }
+}
+@media (max-width:530px){
+     .input-container{
+          display: inline;
+     }
+     .input-container div 
+     {
+          width:100%;
      }
 }

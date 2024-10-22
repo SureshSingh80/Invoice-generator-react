@@ -20,7 +20,7 @@ const CompanyData = (props) => {
       <p className='text-center'>-----------------Company Details----------------------</p>
     <form action="">
       {/* First Row */}
-     <div className='flex'>
+     <div className='flex input-container'>
 
        <div className='w-1/2 m-1'>
           <label htmlFor="name">Enter Company Name:</label><br />
@@ -38,7 +38,7 @@ const CompanyData = (props) => {
     </div> 
 
     {/* Second Row */}
-    <div className='flex'>
+    <div className='flex input-container'>
 
        <div className='w-1/2 m-1'>
           <label htmlFor="branchAddress">Enter Company BranchAddress:</label><br />
@@ -56,7 +56,7 @@ const CompanyData = (props) => {
     </div> 
 
     {/* Third Row */}
-    <div className='flex'>
+    <div className='flex input-container'>
 
        <div className='w-1/2 m-1'>
           <label htmlFor="email">Enter Company Email:</label><br />
